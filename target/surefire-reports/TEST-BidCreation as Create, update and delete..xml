@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="BidCreation as Create, update and delete." time="121.932" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\apache-maven-3.8.2\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.2/conf"/>
+    <property name="os.name" value="Windows Server 2016"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -DBROWSER=chrome -DtagName=@TC002_ZipFileDownLoad"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.2"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\parmeshwar.sakole.GLOBAL"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="BROWSER" value="chrome"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.4+10-LTS"/>
+    <property name="user.name" value="parmeshwar.sakole"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PARMES~1.GLO\AppData\Local\Temp\2\"/>
+    <property name="java.version" value="11.0.4"/>
+    <property name="user.dir" value="C:\Applications\New Framework (4)\New Framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Applications\New Framework (4)\New Framework"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="tagName" value="@TC002_ZipFileDownLoad"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.8.2\bin;C:\Program Files\Java\jdk-11.0.4\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\parmeshwar.sakole.GLOBAL\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.4+10-LTS"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.8.2\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Download the zip file from Bid creation" classname="BidCreation as Create, update and delete." time="117.432">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&apos;Bid Plan and Tracker - CRM 103501&apos; and contains(@title,&apos;Name Required Field&apos;)]&quot;}&#10;  (Session info: chrome=95.0.4638.54)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;&#10;System info: host: &apos;UK-V-JENK-01&apos;, ip: &apos;10.102.80.159&apos;, os.name: &apos;Windows Server 2016&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.10 (970bcf99e2bb6..., userDataDir: C:\Users\PARMES~1.GLO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 01b2dbaea85a84471403bd134a118cd4&#10;*** Element info: {Using=xpath, value=//input[@value=&apos;Bid Plan and Tracker - CRM 103501&apos; and contains(@title,&apos;Name Required Field&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Bid Plan and Tracker - CRM 103501' and contains(@title,'Name Required Field')]"}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'UK-V-JENK-01', ip: '10.102.80.159', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.10 (970bcf99e2bb6..., userDataDir: C:\Users\PARMES~1.GLO\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b2dbaea85a84471403bd134a118cd4
+*** Element info: {Using=xpath, value=//input[@value='Bid Plan and Tracker - CRM 103501' and contains(@title,'Name Required Field')]}
+</error>
+    <system-out><![CDATA[out********************************************chrome
+os********************************************chromewindows server 2016
+if win********************************************chrome
+if********************************************chrome
+The Browser used for this test is: CHROME
+Beginning of getExtentReportsInstance method in ExtentHtmlManager class...
+Report name = 21_10_2021_17_03_47.html
+End of getExtentReportsInstance method in ExtentHtmlManager class...
+Beginning of getExtentReportsInstance method in ExtentHtmlManager class...
+Beginning of getExtentReportsInstance method in ExtentHtmlManager class...
+URLS@@@@@@@@:===http://parmeshwar.sakole:Maahi@123456789@tc3-v-devsp05:8888/Bid%20List/Forms/
+=============if conditon
+Beginning of getExtentReportsInstance method in ExtentHtmlManager class...
+actualtitle = BidPortal - Forms - StandardSecurityView
+Beginning of getExtentReportsInstance method in ExtentHtmlManager class...
+bidRecords count [[[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]], [[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]], [[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]], [[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]], [[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]], [[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]], [[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]], [[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]], [[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]], [[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]], [[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]], [[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]], [[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]], [[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]], [[ChromeDriver: chrome on WINDOWS (01b2dbaea85a84471403bd134a118cd4)] -> xpath: (//*[@class='ms-List-cell'])[1]//following::span[contains(@class,'FieldRenderer-NameRenderer-SignalField')]]]
+---------*****BID-1634828794501
+Beginning of getExtentReportsInstance method in ExtentHtmlManager class...
+Beginning of getExtentReportsInstance method in ExtentHtmlManager class...
+title check BID-1634828794501
+JummmmmmmmmmmmmmmmmmmmmmmmmmmmmmPPPPPPPPing
+alert  present
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.10 (970bcf99e2bb66a6e724fc5a2806974c7d7a0e8d-refs/branch-heads/4638@{#87}) on port 65094
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 21, 2021 5:03:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
